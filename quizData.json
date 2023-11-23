@@ -1,0 +1,18 @@
+{
+  "quiz": [
+    {
+      "title" : "Platform Dev 1",
+      "description" : "Platform Dev 1 quiz",
+      "question1" : [
+        {
+          "question" : "A developer needs to have records with specific field values in order to test a new Apex class. What should the developer do to ensure the data is available to the test?",
+          "a" : "Use Anonymous Apex to create the required data.",
+          "b" : " Use SOQL to query the org for the required data.",
+          "c" : "Use Test.loadDataO < > and reference a CSV file in a static resource.",
+          "d" : "Use Test.loadDataO and reference a JSON file in Documents."
+        },
+        
+      ]
+    }
+  ]
+}
