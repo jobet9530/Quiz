@@ -1,17 +1,43 @@
 {
-  "quiz": [
+  "quiz1": [
     {
       "title" : "Platform Dev 1",
       "description" : "Platform Dev 1 quiz",
-      "question1" : [
+      "set1" : [
         {
-          "question" : "A developer needs to have records with specific field values in order to test a new Apex class. What should the developer do to ensure the data is available to the test?",
+          "question1" : "A developer needs to have records with specific field values in order to test a new Apex class. What should the developer do to ensure the data is available to the test?",
           "a" : "Use Anonymous Apex to create the required data.",
           "b" : " Use SOQL to query the org for the required data.",
           "c" : "Use Test.loadDataO < > and reference a CSV file in a static resource.",
           "d" : "Use Test.loadDataO and reference a JSON file in Documents."
-        },
-        
+        }
+      ],
+      "set2" : [
+        {
+          "question2" : "What should a developer do to check the code coverage of a class after running all tests?",
+          "a" : "View the code coverage percentage or the class using the Overalll code Coverage panel in the Developer Console Test tab.",
+          "b" : "Select and run the class on the Apex est Execution page in the Developer Console.",
+          "c" : "View the Class test Percentage tab on the Apex Class list view in Salesforce Setup.",
+          "d" : "View the Code Coverage column in the list on the Apex Classes page."
+        }
+      ],
+      "set3" : [
+        {
+          "question3" : "A developer must create a CreditcardPayment class that provides an implementation of an existing Payment class. Public virtual class Payment { public virtual void makePayment(Decimal amount) { /*implementation*/} } Which is the correct implementation?",
+          "a" : " Public class CreditCardPayment extends Payment public virtual void makePayment(Decimal amount) { /*implementation*/ } }",
+          "b" : "Public class CreditCardPayment implements Payment public override void makePayment(Decimal amount) { /*Implementation*/ } }",
+          "c" : "Public class CreditCardPayment implements Payment public virtual void makePayment(Decimal amount) { /*implementation*/ }}",
+          "d" : "Public class CreditcardPayment extends Payment { public override void makePayment(Decimal amount) { /*implementation*/ } }"
+        }
+      ],
+      "set4" : [
+        {
+          "question4" : "A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names. What two things should be done to create the test data within the unit test with the least amount of code?. A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code?",
+          "a" : "Use the @isTest(seeAllData=true) annotation in the test class.",
+          "b" : "Use the @isTest(isParallel=true) annotation in the test class.",
+          "c" : "Create a static resource containing test data.",
+          "d" : "Use Test.loadData to populate data in your test methods."
+        }
       ]
     }
   ]
